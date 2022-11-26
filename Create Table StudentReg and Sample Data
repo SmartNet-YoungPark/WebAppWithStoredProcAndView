@@ -11,3 +11,5 @@ CREATE TABLE [dbo].[StudentReg] (
     [City]    NVARCHAR (50)  NULL,
     [Address] NVARCHAR (100) NULL
 );
+
+Insert into StudentReg(Name, City, Address) values ('Young Park', 'Toronto', '116 Bay st.')
